@@ -66,6 +66,7 @@ public class CarInforsService {
         result.put("resultList", sharedDao.getList(sqlMapId, dataMap)); // 표현된 레코드 정보
         return result;
     }
+    
 
     public Object selectTotal(Map dataMap) {
         String sqlMapId = "CarInfors.selectTotal";

@@ -17,7 +17,8 @@
                         <li class="nav-item">
                             <button class="nav-link" formaction="/carInfor/map/selectSearch">Carinfo List</button>
                         </li>
-                        <sec:authorize access="hasRole('ROLE_ADMIN')">
+                       
+                        
                         <li class="nav-item">
                             <button class="nav-link" formaction="/admin">Admin</button>
                         </li>

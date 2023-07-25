@@ -16,6 +16,7 @@ public class MainController {
         String userId = commons.getUserID();
         modelAndView.addObject("name", "Yojulab!");
         modelAndView.setViewName("/WEB-INF/views/main.jsp");
+
         return modelAndView;
     }
     @GetMapping({"/admin"})     // 관리자 접속하는 곳
